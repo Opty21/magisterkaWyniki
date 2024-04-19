@@ -1,0 +1,28 @@
+SVC(kernel='linear')
+(9232, 62850)
+Time taken to train: 21.690808296203613
+Time taken to predict: 1.754739761352539
+              precision    recall  f1-score   support
+
+    Negative       0.87      0.98      0.92      1847
+    Positive       0.83      0.42      0.55       462
+
+    accuracy                           0.87      2309
+   macro avg       0.85      0.70      0.74      2309
+weighted avg       0.86      0.87      0.85      2309
+
+0.866608921611087
+LogisticRegression(max_iter=1000)
+(9232, 62850)
+Time taken to train: 0.645784854888916
+Time taken to predict: 0.0009992122650146484
+              precision    recall  f1-score   support
+
+    Negative       0.83      0.99      0.91      1847
+    Positive       0.83      0.22      0.35       462
+
+    accuracy                           0.83      2309
+   macro avg       0.83      0.60      0.63      2309
+weighted avg       0.83      0.83      0.79      2309
+
+0.8345604157644002

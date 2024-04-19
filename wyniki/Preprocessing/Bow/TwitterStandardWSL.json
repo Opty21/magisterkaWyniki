@@ -1,0 +1,52 @@
+SVC(kernel='linear')
+Time taken to train: 3.8076789379119873
+Time taken to predict: 0.5479998588562012
+              precision    recall  f1-score   support
+
+    Negative       0.94      0.96      0.95      1847
+    Positive       0.81      0.76      0.78       462
+
+    accuracy                           0.92      2309
+   macro avg       0.88      0.86      0.87      2309
+weighted avg       0.91      0.92      0.92      2309
+
+0.9164140320485058
+LogisticRegression(max_iter=1000)
+Time taken to train: 0.15400242805480957
+Time taken to predict: 0.0
+              precision    recall  f1-score   support
+
+    Negative       0.93      0.97      0.95      1847
+    Positive       0.86      0.73      0.79       462
+
+    accuracy                           0.92      2309
+   macro avg       0.90      0.85      0.87      2309
+weighted avg       0.92      0.92      0.92      2309
+
+0.9220441749675184
+KNeighborsClassifier(n_neighbors=50)
+Time taken to train: 0.0010004043579101562
+Time taken to predict: 0.641535758972168
+              precision    recall  f1-score   support
+
+    Negative       0.95      0.37      0.53      1847
+    Positive       0.27      0.92      0.41       462
+
+    accuracy                           0.48      2309
+   macro avg       0.61      0.64      0.47      2309
+weighted avg       0.81      0.48      0.51      2309
+
+0.47682979644867907
+DecisionTreeClassifier()
+Time taken to train: 0.5705258846282959
+Time taken to predict: 0.0010004043579101562
+              precision    recall  f1-score   support
+
+    Negative       0.92      0.92      0.92      1847
+    Positive       0.69      0.68      0.68       462
+
+    accuracy                           0.87      2309
+   macro avg       0.80      0.80      0.80      2309
+weighted avg       0.87      0.87      0.87      2309
+
+0.8744045041143352
